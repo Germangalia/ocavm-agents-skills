@@ -17,7 +17,7 @@ This repository provides reusable skills and role-based agent instructions. It c
 ├── agents/       # Role-based agent instructions (AGENT.md)
 └── skills/       # Reusable protocol knowledge (SKILL.md)
 README.md
-skills           # Skills registry path
+skills           # Symlink to .agents/skills for registry discovery
 skills-lock.json # Registry lock file
 ```
 
@@ -68,7 +68,7 @@ For OCAVM tasks, select the awareness/danger, coordination, or infrastructure-di
 
 ## Installation and local usage
 
-The registry path in this checkout is `skills`, which points to `.agents/skills`. To install the skills with the Skills CLI, use:
+The root `skills` path is a symlink to `.agents/skills`, so registry tools can discover the skills while the project keeps its agent-oriented directory structure. To install the skills with the Skills CLI, use:
 
 ```sh
 npx skills add Germangalia/ocavm-agents-skills
