@@ -1,4 +1,5 @@
 ---
+name: ocva-message-semantics
 description: "Request and response processing, idempotency, revisions, ordering, deadlines, and application lifecycles across the OCVA protocols. Load when implementing message contracts or stateful workflows."
 ---
 # OCVA Message Semantics

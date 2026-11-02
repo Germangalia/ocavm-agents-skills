@@ -1,4 +1,5 @@
 ---
+name: ocavm-infrastructure-discovery
 description: "OCAVM infrastructure capabilities, peer discovery, coordination status, zone/capability queries, alert subscriptions, geofences, and time windows."
 ---
 # OCAVM Infrastructure and Discovery

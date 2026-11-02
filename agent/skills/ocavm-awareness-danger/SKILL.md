@@ -1,4 +1,5 @@
 ---
+name: ocavm-awareness-danger
 description: "OCAVM peer awareness and danger-alert data, message validity, freshness, and safety-sensitive handling. Load for short-range situational-awareness or hazard workflows."
 ---
 # OCAVM Awareness and Danger Alerts

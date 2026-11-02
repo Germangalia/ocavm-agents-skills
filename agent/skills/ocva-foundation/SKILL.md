@@ -1,4 +1,5 @@
 ---
+name: ocva-foundation
 description: "Scope, terminology, roles, deployment, profiles, and protocol boundaries for OCAVS, OCAVM, and OCAVI. Load before designing or reviewing OCVA protocol behavior."
 ---
 # OCVA Foundation

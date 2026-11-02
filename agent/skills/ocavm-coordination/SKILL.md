@@ -1,4 +1,5 @@
 ---
+name: ocavm-coordination
 description: "OCAVM cooperative maneuvers, intersection and merge coordination, and platoon formation/lifecycle. Load when implementing negotiated peer coordination."
 ---
 # OCAVM Cooperative Coordination

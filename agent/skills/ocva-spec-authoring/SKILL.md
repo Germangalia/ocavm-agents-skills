@@ -1,4 +1,5 @@
 ---
+name: ocva-spec-authoring
 description: "Normative document ownership, requirement language, repository conventions, examples, checklists, and release discipline for OCAVS, OCAVM, and OCAVI."
 ---
 # OCVA Specification Authoring

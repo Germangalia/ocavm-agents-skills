@@ -1,4 +1,5 @@
 ---
+name: ocva-security-privacy
 description: "Validation, authorization, privacy, secure-connectivity assumptions, and external-transfer constraints in OCAVS, OCAVM, and OCAVI. Load for security-sensitive protocol work."
 ---
 # OCVA Security and Privacy
