@@ -17,10 +17,13 @@ This repository provides reusable AI agent skills and role-based agent instructi
 ```text
 .agents/
 ├── agents/       # Role-based agent instructions (AGENT.md)
-└── skills/       # Reusable protocol knowledge (SKILL.md)
+└── skills/       # Skills loaded by the repo's local agent setup
+
+agent/
+└── skills/       # Registry-facing skill manifests (SKILL.md)
 
 README.md
-skills           # Symlink to .agents/skills for registry discovery
+skills           # Symlink to agent/skills for registry discovery
 skills-lock.json # Registry lock file
 ```
 
@@ -124,7 +127,7 @@ cd ocavm-agents-skills
 
 Configure your agent runtime to load skills from `.agents/skills/` and, if supported, role instructions from `.agents/agents/`.
 
-The root-level `skills` path is a symlink to `.agents/skills/`. This allows registry tools to discover the skills while preserving the repository's agent-oriented directory structure.
+The root-level `skills` path is a symlink to `agent/skills/` so the Skills CLI discovers the registry-facing manifests. Keep those manifests in sync with the corresponding `.agents/skills/` copies used by the local agent setup.
 
 ## Design Principles
 
